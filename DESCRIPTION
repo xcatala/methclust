@@ -24,4 +24,6 @@ Imports:
     siggenes,
     tibble,
     tidyr,
-    magrittr
+    magrittr,
+    methods,
+    BiocGenerics

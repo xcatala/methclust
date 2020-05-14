@@ -2,7 +2,9 @@
 
 export("%>%")
 export(diffMeth)
+import(BiocGenerics)
 import(data.table)
+import(methods)
 importFrom(dplyr,as_tibble)
 importFrom(dplyr,filter)
 importFrom(dplyr,inner_join)

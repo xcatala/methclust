@@ -13,7 +13,10 @@
 #' @importFrom limma lmFit contrasts.fit makeContrasts eBayes
 #' @importFrom magrittr %>%
 #' @importFrom stats setNames model.matrix na.omit
+#'
 #' @import data.table
+#' @import methods
+#' @import BiocGenerics
 #'
 diffMeth <- function(dat) {
 
