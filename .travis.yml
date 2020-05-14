@@ -9,5 +9,6 @@ os:
   - osx
 
 r:
+  - bioc-release
   - bioc-devel
 
