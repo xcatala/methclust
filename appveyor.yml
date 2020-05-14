@@ -28,21 +28,10 @@ environment:
     PKGTYPE: both
 
   matrix:
-    - R_VERSION: devel
-      R_ARCH: x64
-      GCC_PATH: mingw_64
-      BIOC_USE_DEVEL: TRUE
-
     - R_VERSION: release
       R_ARCH: x64
       GCC_PATH: mingw_64
       BIOC_USE_DEVEL: TRUE
-
-    - R_VERSION: oldrel
-      R_ARCH: x64
-      GCC_PATH: mingw_64
-      BIOC_USE_DEVEL: TRUE
-
 
 # Adapt as necessary starting from here
 build_script:
