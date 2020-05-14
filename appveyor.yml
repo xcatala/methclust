@@ -33,27 +33,16 @@ environment:
       GCC_PATH: mingw_64
       BIOC_USE_DEVEL: TRUE
 
-    - R_VERSION: devel
-      GCC_PATH: mingw_32
+    - R_VERSION: release
+      R_ARCH: x64
+      GCC_PATH: mingw_64
       BIOC_USE_DEVEL: TRUE
 
-    - R_VERSION: release
-      R_ARCH: x64
-      GCC_PATH: mingw_64
-      BIOC_USE_DEVEL: FALSE
-
-    - R_VERSION: release
-      GCC_PATH: mingw_32
-      BIOC_USE_DEVEL: FALSE
-
     - R_VERSION: oldrel
       R_ARCH: x64
       GCC_PATH: mingw_64
-      BIOC_USE_DEVEL: FALSE
+      BIOC_USE_DEVEL: TRUE
 
-    - R_VERSION: oldrel
-      GCC_PATH: mingw_32
-      BIOC_USE_DEVEL: FALSE
 
 # Adapt as necessary starting from here
 build_script:
