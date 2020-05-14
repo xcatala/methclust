@@ -5,6 +5,8 @@
 
 [![Travis build
 status](https://travis-ci.com/xcatala/methclust.svg?branch=master)](https://travis-ci.com/xcatala/methclust)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/xcatala/methclust?branch=master&svg=true)](https://ci.appveyor.com/project/xcatala/methclust)
 [![R build
 status](https://github.com/xcatala/methclust/workflows/R-CMD-check/badge.svg)](https://github.com/xcatala/methclust/actions)
 [![BioC
