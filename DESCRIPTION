@@ -27,3 +27,5 @@ Imports:
     magrittr,
     methods,
     BiocGenerics
+biocViews: DNAMethylation, Microarray, TwoChannel, Preprocessing,
+    QualityControl

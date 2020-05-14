@@ -2,7 +2,6 @@
 
 language: R
 cache: packages
-sudo: false
 warnings_are_errors: true
 
 os:
@@ -10,8 +9,6 @@ os:
   - osx
 
 r:
-  - 3.4
-  - 3.5
   - 3.6
   - relase
   - devel

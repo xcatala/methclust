@@ -15,6 +15,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/xcatala/methclust.svg?branch=master)](https://travis-ci.com/xcatala/methclust)
+[![R build status](https://github.com/xcatala/methclust/workflows/R-CMD-check/badge.svg)](https://github.com/xcatala/methclust/actions)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/methclust.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/methclust)
 <!-- badges: end -->
 
 # methclust
