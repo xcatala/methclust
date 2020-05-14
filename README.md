@@ -11,6 +11,8 @@ status](https://ci.appveyor.com/api/projects/status/github/xcatala/methclust?bra
 status](https://github.com/xcatala/methclust/workflows/R-CMD-check/badge.svg)](https://github.com/xcatala/methclust/actions)
 [![BioC
 status](http://www.bioconductor.org/shields/build/release/bioc/methclust.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/methclust)
+[![Codecov test
+coverage](https://codecov.io/gh/xcatala/methclust/branch/master/graph/badge.svg)](https://codecov.io/gh/xcatala/methclust?branch=master)
 <!-- badges: end -->
 
 # methclust
