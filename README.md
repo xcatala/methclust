@@ -1,11 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# methclust
-
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/xcatala/methclust.svg?branch=master)](https://travis-ci.com/xcatala/methclust)
 <!-- badges: end -->
+
+# methclust
 
 The goal of methclust is to …
 
