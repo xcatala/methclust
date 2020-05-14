@@ -2,15 +2,12 @@
 
 language: R
 cache: packages
-warnings_are_errors: true
+warnings_are_errors: false
 
 os:
   - linux
   - osx
 
 r:
-  - 3.6
-  - relase
-  - devel
   - bioc-devel
 
