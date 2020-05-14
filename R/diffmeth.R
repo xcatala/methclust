@@ -5,11 +5,17 @@
 #' @return DiffMeth object
 #' @export
 #'
-#' @examples
+#' @importFrom minfi dropLociWithSnps getM pData getAnnotation getBeta
+#' @importFrom siggenes qvalue.cal pi0.est
+#' @importFrom dplyr as_tibble mutate select inner_join filter
+#' @importFrom tibble rownames_to_column
+#' @importFrom tidyr separate
+#' @importFrom limma lmFit contrasts.fit makeContrasts eBayes
+#' @importFrom magrittr %>%
+#' @importFrom stats setNames model.matrix na.omit
+#' @import data.table
+#'
 diffMeth <- function(dat) {
-
-  library(limma)
-  library(siggenes)
 
   dat <- dropLociWithSnps(dat)
   M <- getM(dat)
